@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-transform: none;
+}
+
+body {
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+li {
+	display: inline-block;
+	margin: 10px;
+	list-style: none;
+}
+
+.rating .active {
+	color: gold;
+}
+
+.rating a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.list {
+	width: 80%;
+	margin: 30px auto;
+}
+
+.pagination {
+	text-align: center;
+	font-weight: bold;
+}

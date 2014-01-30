@@ -1,0 +1,68 @@
+{
+    "best_hotel": [
+        {
+            "id": 1,
+            "name": "Copacabana",
+            "url": "http://planedia.com/hotels/copacabana-palace",
+            "img_url": "http://lorempixel.com/output/abstract-q-c-300-300-8.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },
+        {
+            "id": 2,
+            "name": "Pontal dos Carneiros",
+            "url": "http://planedia.com/hotels/pontal-dos-carneiros",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },
+        {
+            "id": 3,
+            "name": "Nannai Beach Resort",
+            "url": "http://lorempixel.com/output/abstract-q-c-300-300-8.jpg",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },{
+            "id": 4,
+            "name": "Copacabana",
+            "url": "http://planedia.com/hotels/copacabana-palace",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },
+        {
+            "id": 5,
+            "name": "Pontal dos Carneiros",
+            "url": "http://planedia.com/hotels/pontal-dos-carneiros",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },
+        {
+            "id": 6,
+            "name": "Nannai Beach Resort",
+            "url": "http://lorempixel.com/output/abstract-q-c-300-300-8.jpg",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        }
+    ],
+    "best_place": [
+      {
+            "id": 1,
+            "name": "Nannai Beach Resort",
+            "url": "http://planedia.com/hotels/nannai-beach-resort",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },
+        {
+            "id": 2,
+            "name": "Nannai Beach Resort",
+            "url": "http://planedia.com/hotels/nannai-beach-resort",
+            "img_url": "http://lorempixel.com/output/food-q-c-300-300-2.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        },
+        {
+            "id": 3,
+            "name": "Nannai Beach Resort",
+            "url": "http://planedia.com/hotels/nannai-beach-resort",
+            "img_url": "http://lorempixel.com/output/abstract-q-c-300-300-8.jpg",
+            "desc": "The elegant 5-star Copacabana Palace offers luxurious rooms with marbled bathrooms and panoramic"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-6 col-md-3" ng-repeat="data in page.source">
+    <div class="thumbnail">
+      <img ng-src="{{ data.img_url }}" alt="{{ data.name }}">
+      <div class="caption">
+        <h3>{{ data.name }} - {{ data.id }}</h3>
+        <p>{{ data.desc }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ul class="pager">
+  <li ng-if="page.page != 0">
+  	<a href="#" ng-click="changePage(page.page - 1)">&larr; Older</a>
+  </li>
+  <li ng-if="pages.length - 1 != page.page">
+  	<a href="#" ng-click="changePage(page.page + 1)">Newer &rarr;</a>
+  </li>
+</ul>
