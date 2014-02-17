@@ -9,16 +9,16 @@ angular.module('planedia', [])
     templateUrl: 'template/pagination.html',
     link: function( scope, elem, attrs ) {
 
-      var url = '/sgi/secure/sessions_recharge/execute';
+      var url = 'js/data.json';
       var typePoint = attrs.type;
 
       scope.pages = [];
       scope.numberOfTotal = 0;
       scope.currentPage = null;
       scope.source = [];
-      scope.pageSize = parseInt(attrs.size, 10);
+      scope.pageSize = parseInt( attrs.size, 10 );
 
-      $http.get( 'js/data.json' ).success(function(data) {
+      $http.get( url ).success(function(data) {
         
         if(data[typePoint].length > 0) {
 
