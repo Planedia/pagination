@@ -37,7 +37,7 @@ angular.module('planedia', [])
           // not result
         }
       }).error(function(){
-        // error
+        console.log(data);
       });
 
       scope.changePage = function(i) {
